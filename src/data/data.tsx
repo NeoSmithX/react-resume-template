@@ -25,7 +25,9 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+// import profilepic from '../images/profilepic.jpg';
+import aiweb3_log from '../images/aiweb3_log.jpg';
+// import gavinwood from '../images/gavinwood.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -105,7 +107,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: aiweb3_log,
   description: `AIWEB3是一个xxxx`,
   aboutItems: [
     {label: '位置', text: '地球', Icon: MapIcon},
@@ -122,69 +124,69 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: '市场能力',
     skills: [
       {
-        name: 'English',
+        name: 'xxx',
         level: 10,
       },
       {
-        name: 'French',
+        name: 'xxx',
         level: 4,
       },
       {
-        name: 'Spanish',
+        name: 'xx',
         level: 3,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: '技术背景',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'AI(python)',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: '后端(Typescript/Rust)',
+        level: 8,
+      },
+      {
+        name: '前端(急需你的加入=-=)',
+        level: 1,
+      },
+    ],
+  },
+  {
+    name: '合作团队',
+    skills: [
+      {
+        name: 'xx',
+        level: 8,
+      },
+      {
+        name: 'xx',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'xx',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'xxx',
     skills: [
       {
-        name: 'React Native',
+        name: 'xxx',
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'xxx',
         level: 4,
       },
       {
-        name: 'Swift',
+        name: 'xxx',
         level: 3,
       },
     ],
@@ -268,39 +270,37 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2022~2023',
+    location: '已完成目标？',
+    title: '已完成目标？',
+    content: <p>xxxx.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2023~',
+    location: '未来目标？',
+    title: '未来目标？',
+    content: <p>xxx.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'xxxx',
+    location: 'xxx',
+    title: '什么是Create To Earn',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        xxx
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'xxxx',
+    location: 'xxxx',
+    title: 'Jxxxx',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        xxxxx
       </p>
     ),
   },
@@ -313,20 +313,20 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Gavin Wood',
+      text: 'Web3 is the service without service provider.',
+      image: '../images/gavinwood.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'xxx',
+      text: 'polakdot achexxxxxxx.',
+      image: 'xxx',
     },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    // {
+    //   name: 'Someone else',
+    //   text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    // },
   ],
 };
 
@@ -355,12 +355,12 @@ export const contact: ContactSection = {
     // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Github',
+      href: 'https://github.com/NeoSmithX/react-resume-template',
     },
     {
       type: ContactType.Discord,
-      text: 'tbakerx',
+      text: 'Discord (图片待修改)',
       href: 'https://discord.gg/4Jm2cuDDDV',
     },
     
@@ -371,9 +371,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/NeoSmithX/react-resume-template'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  // {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Discord (图片待修改)', Icon: InstagramIcon, href: 'https://discord.gg/4Jm2cuDDDV'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/aiweb3dao'},
 ];
