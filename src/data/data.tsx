@@ -53,13 +53,13 @@ export const homePageMeta: HomepageMeta = {
  */
 export const SectionId = {
   Hero: 'hero',
-  About: 'about',
-  Contact: 'contact',
-  Portfolio: 'portfolio',
-  Resume: 'resume',
+  About: 'AIWEB3',
+  Contact: '联系我们',
+  Portfolio: '合作项目',
+  Resume: '简介',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Testimonials: '波卡学院',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -69,31 +69,33 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `我们是波卡学院`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        大家好，我们来自AIWEB3，是一个专注于波卡生态的社区。xxx
+        {/* I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        registrar and site builder. */}
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+       
+        {/* In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        <strong className="text-stone-100">Vancouver Island</strong>. */}
       </p>
     </>
   ),
   actions: [
     {
       href: '/assets/resume.pdf',
-      text: 'Resume',
+      text: '白皮书',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
     {
       href: `#${SectionId.Contact}`,
-      text: 'Contact',
+      text: '欢迎您的加入',
       primary: false,
     },
   ],
@@ -104,16 +106,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `AIWEB3是一个xxxx`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: '位置', text: '地球', Icon: MapIcon},
+    {label: '年龄', text: '1+', Icon: CalendarIcon},
+    {label: 'xx', text: 'xx', Icon: FlagIcon},
+    {label: 'xx', text: 'xx', Icon: SparklesIcon},
+    {label: '目标', text: '波卡学院', Icon: AcademicCapIcon},
+    {label: 'xx', text: 'xx', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -338,26 +338,32 @@ export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
-    {
-      type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
-    },
-    {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Email,
+    //   text: 'reachout@timbaker.me',
+    //   href: 'mailto:reachout@timbaker.me',
+    // },
+    // {
+    //   type: ContactType.Location,
+    //   text: 'Victoria BC, Canada',
+    //   href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+    // },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
       text: 'tbakerx',
       href: 'https://github.com/tbakerx',
     },
+    {
+      type: ContactType.Discord,
+      text: 'tbakerx',
+      href: 'https://discord.gg/4Jm2cuDDDV',
+    },
+    
   ],
 };
 
