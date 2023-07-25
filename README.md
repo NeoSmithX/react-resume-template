@@ -4,3 +4,6 @@
 1. yarn install
 2. yarn dev  
 3. 进入 http://localhost:3000
+
+
+!!! 本项目迁移至 https://github.com/AIWeb3-DAO/AIWeb3FrontEnd
